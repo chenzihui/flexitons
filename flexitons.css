@@ -1,0 +1,107 @@
+/**
+ * A simple set of reusable CSS styles for creating buttons by mixing and
+ * and matching Structures with Skins.
+ *
+ * Feel free to use these in both your personal and commercial projects.
+ *
+ * Created by Chen Zihui <hello@chenzihui.com>
+ **/
+
+/*
+ ------------------------------
+ STRUCTURE
+ ------------------------------
+*/
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  line-height: 32px;
+  min-height: 32px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100px;
+}
+
+  .btn:hover {
+    text-decoration: none;
+  }
+
+.btn-long {
+  width: 200px;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+/*
+ ------------------------------
+ SKIN
+ ------------------------------
+*/
+
+.grey {
+  color: #444;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-bottom-color: #bbb;
+}
+
+/*
+ * The following background colors are adapted from Twitter Bootstrap.
+ * Feel free to switch them out and / or add more.
+ */
+
+.red {
+  color: #fcf0f0;
+  background-color: #d63428;
+  border: 1px solid #ba2d22;
+  border-bottom-color: #8f231a;
+}
+
+.green {
+  color: #f1f9f1;
+  background-color: #46a546;
+  border: 1px solid #3c8d3c;
+  border-bottom-color: #327532;
+}
+
+.blue {
+  color: #f0faff;
+  background-color: #049cdb;
+  border: 1px solid #0384ba;
+  border-bottom-color: #036c98;
+}
+
+.yellow {
+  color: #fffaea;
+  background-color: #ffc40d;
+  border: 1px solid #eab100;
+  border-bottom-color: #c89700;
+}
+
+.orange {
+  color: #fff7ed;
+  background-color: #f89406;
+  border: 1px solid #d78005;
+  border-bottom-color: #a56304;
+}
+
+.soft {
+  border-radius: 3px;
+}
+
+.gradient {
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-image: -ms-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-image: -o-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+  background-image: linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+}
+
+.pop {
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.25);
+}
