@@ -16,13 +16,13 @@
 .btn {
   cursor: pointer;
   display: inline-block;
-  line-height: 32px;
-  min-height: 32px;
+  line-height: 32px;            /* Remove if using padding to adjust */
+  min-height: 32px;             /* To ensure buttons are same size as input. Adjust accordingly */
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
   white-space: nowrap;
-  width: 100px;
+  width: 100px;                 /* Alternatively use padding to adjust the size */
 }
 
   .btn:hover {
@@ -47,7 +47,7 @@
   color: #444;
   background-color: #eee;
   border: 1px solid #ddd;
-  border-bottom-color: #bbb;
+  border-bottom-color: #bbb;      /* Darker bottom border to give the impression of depth */
 }
 
 /*
@@ -93,6 +93,13 @@
 .soft {
   border-radius: 3px;
 }
+
+/*
+ * Gradient is applied via a semi transparent overlay based on #FFF on top of
+ * existing backgroudn colors.
+ *
+ * This improves reusability of this class.
+ */
 
 .gradient {
   background-image: -moz-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
