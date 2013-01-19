@@ -20,13 +20,22 @@
   min-height: 32px;             /* To ensure buttons are same size as input. Adjust accordingly */
   text-align: center;
   text-decoration: none;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
   vertical-align: middle;
   white-space: nowrap;
   width: 100px;                 /* Alternatively use padding to adjust the size */
 }
 
   .btn:hover {
+    filter:alpha(opacity=90);
+    opacity: 0.85;
     text-decoration: none;
+  }
+
+  .btn:active {
+    box-shadow: inset 0 0 10px rgba(0,0,0,.25);
   }
 
 .btn-long {
