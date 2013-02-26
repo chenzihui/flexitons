@@ -9,6 +9,18 @@
 
 /*
  ------------------------------
+ HELPER
+ ------------------------------
+*/
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*
+ ------------------------------
  STRUCTURE
  ------------------------------
 */
@@ -16,8 +28,8 @@
 .btn {
   cursor: pointer;
   display: inline-block;
-  line-height: 32px;            /* Remove if using padding to adjust */
-  min-height: 32px;             /* To ensure buttons are same size as input. Adjust accordingly */
+  line-height: 2.45;
+  padding: 0 .725em;
   text-align: center;
   text-decoration: none;
   -moz-transition: all 0.2s linear;
@@ -25,7 +37,6 @@
   transition: all 0.2s linear;
   vertical-align: middle;
   white-space: nowrap;
-  width: 100px;                 /* Alternatively use padding to adjust the size */
 }
 
   .btn:hover {
@@ -38,12 +49,20 @@
     box-shadow: inset 0 0 10px rgba(0,0,0,.25);
   }
 
-.btn-long {
-  width: 200px;
-}
-
 .btn-full {
   width: 100%;
+}
+
+.btn-medium {
+  padding: 0 3em;
+}
+
+.btn-large {
+  padding: 0 6em;
+}
+
+.btn-xlarge {
+  padding: 0 9em;
 }
 
 /*
