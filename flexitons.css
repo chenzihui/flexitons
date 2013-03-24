@@ -49,19 +49,19 @@
     box-shadow: inset 0 0 10px rgba(0,0,0,.25);
   }
 
-.btn-full {
+.btn--full {
   width: 100%;
 }
 
-.btn-medium {
+.btn--medium {
   padding: 0 3em;
 }
 
-.btn-large {
+.btn--large {
   padding: 0 6em;
 }
 
-.btn-xlarge {
+.btn--xlarge {
   padding: 0 9em;
 }
 
@@ -74,8 +74,11 @@
 .grey {
   color: #444;
   background-color: #eee;
+}
+
+.grey--border {
   border: 1px solid #ddd;
-  border-bottom-color: #bbb;      /* Darker bottom border to give the impression of depth */
+  border-bottom-color: #bbb;
 }
 
 /*
@@ -86,6 +89,9 @@
 .red {
   color: #fcf0f0;
   background-color: #d63428;
+}
+
+.red--border {
   border: 1px solid #ba2d22;
   border-bottom-color: #8f231a;
 }
@@ -93,6 +99,9 @@
 .green {
   color: #f1f9f1;
   background-color: #46a546;
+}
+
+.green--border {
   border: 1px solid #3c8d3c;
   border-bottom-color: #327532;
 }
@@ -100,6 +109,9 @@
 .blue {
   color: #f0faff;
   background-color: #049cdb;
+}
+
+.blue--border {
   border: 1px solid #0384ba;
   border-bottom-color: #036c98;
 }
@@ -107,6 +119,9 @@
 .yellow {
   color: #fffaea;
   background-color: #ffc40d;
+}
+
+.yellow--border {
   border: 1px solid #eab100;
   border-bottom-color: #c89700;
 }
@@ -114,6 +129,9 @@
 .orange {
   color: #fff7ed;
   background-color: #f89406;
+}
+
+.orange--border {
   border: 1px solid #d78005;
   border-bottom-color: #a56304;
 }
@@ -124,7 +142,7 @@
 
 /*
  * Gradient is applied via a semi transparent overlay based on #FFF on top of
- * existing backgroudn colors.
+ * existing background colors.
  *
  * This improves reusability of this class.
  */
